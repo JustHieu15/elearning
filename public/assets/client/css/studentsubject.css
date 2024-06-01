@@ -1,0 +1,270 @@
+header.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  z-index: 10;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 50px;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.logo-fpt{
+  height: 50px;
+  border-radius: 35px;
+  margin-left: 50px;
+}
+
+
+
+.dropdown{
+  margin-top: 5px;
+}
+li{
+  margin-left: 25px;
+}
+ul{
+  margin-right: 120px;
+}
+i{
+  text-align: center;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.container {
+  margin-top: 150px;
+}
+h1 {
+  padding-bottom: 35px;
+  text-align: center;
+  color: orange;
+}
+.box1 {
+  margin-top: 80px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 900px;
+}
+.abc {
+  text-align: center;
+}
+
+.img-abc {
+  box-shadow: 10px 15px 20px;
+  background: orange;
+}
+
+.start-button {
+  background-color: orange; /* Màu nền của nút */
+  border: none; /* Xóa viền */
+  color: white; /* Màu chữ */
+  padding: 15px 32px; /* Kích thước lề nút */
+  text-align: center; /* Căn chỉnh chữ giữa nút */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s; /* Hiệu ứng khi hover */
+}
+
+.start-button:hover {
+  background-color: #e6951c; /* Màu nền thay đổi khi hover */
+}
+
+.container h2 {
+  text-align: center;
+  padding: 45px 0 45px 0;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+button {
+  color: white !important;
+}
+
+.logo img {
+  height: 120px;
+}
+.logo {
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.box3 {
+  height: 450px;
+  width: 550px;
+
+}
+
+/* Style cho ảnh */
+.box2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.box2 img:hover {
+  transform: scale(1.2);
+}
+
+/* Style cho tiêu đề */
+.box2 p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Các cột trong hàng có 2 cột */
+.box2 .row-cols-2 > .col {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/* Responsive: khi màn hình nhỏ hơn 576px, các cột sẽ chiếm toàn bộ chiều rộng */
+@media (max-width: 576px) {
+  .box2 .row-cols-2 > .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.box4 {
+  margin-bottom: 35px;
+}
+.card-body {
+  text-align: center;
+}
+
+.box5 {
+  margin-bottom: 35px;
+  margin-left: 60px;
+}
+.box6 {
+  margin-left: 60px;
+}
+
+.box-img {
+  text-align: center;
+  padding: 25px 0 25px 0;
+
+  background-color: #f1efef;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.box-img:hover{
+  background-color: #dfd6d6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateX(10px);
+}
+
+.box-img1 {
+  background-color: orange;
+  text-align: center;
+
+  padding: 25px 0 25px 0;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.box-img1:hover{
+  background-color: #f59f1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateX(10px);
+}
+
+img {
+  height: 100px;
+}
+
+
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column span {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-column span:hover {
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  margin-top: 20px;
+}
+
+.logo-container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+  transform: scale(1.2);
+}

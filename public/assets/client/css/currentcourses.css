@@ -1,0 +1,164 @@
+header.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  z-index: 10;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 50px;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.logo-fpt{
+  height: 50px;
+  border-radius: 35px;
+  margin-left: 50px;
+}
+
+
+
+.dropdown{
+  margin-top: 5px;
+}
+li{
+  margin-left: 25px;
+}
+ul{
+  margin-right: 120px;
+}
+i{
+  text-align: center;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+
+section {
+  padding: 100px 0 35px 50px;
+}
+.select {
+  margin-left: 80%;
+  margin-right: 120px;
+}
+
+.container .alert p {
+  display: inline-block; /* Hiển thị các phần tử p trên cùng một hàng */
+  /* margin-right: 120px; */
+}
+.alert {
+  border-radius: 10px !important;
+}
+
+.col {
+  flex: 1 !important;
+  padding: 0 px; /* Điều chỉnh khoảng cách giữa các cột */
+}
+.alert-success {
+  background-color: #3ac25a !important; /* Màu xanh nhạt */
+  color: #020202 !important; /* Màu văn bản */
+}
+.alert-success:hover{
+  background-color: #51cf6a !important;
+}
+.alert-Warning {
+  background-color: orange !important; /* Màu xanh nhạt */
+  color: #020202 !important; /* Màu văn bản */
+}
+.alert-Warning:hover{
+  background-color: rgb(241, 194, 107) !important;
+}
+.alert-Secondary {
+  background-color: #c9c8c2 !important; /* Màu xanh nhạt */
+  color: #020202 !important; /* Màu văn bản */
+}
+.alert-Secondary:hover{
+  background-color: #d6d5cf !important;
+}
+button {
+  color: white !important;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column span {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .footer-column span:hover {
+    color: #fff;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .logo span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .logo-container {
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.2);
+  }

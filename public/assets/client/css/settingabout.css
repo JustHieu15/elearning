@@ -1,0 +1,175 @@
+header.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  z-index: 10;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 50px;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.logo-fpt {
+  height: 50px;
+  border-radius: 35px;
+  margin-left: 50px;
+}
+.dropdown {
+  margin-top: 5px;
+}
+li {
+  margin-left: 25px;
+}
+ul {
+  margin-right: 120px;
+}
+i {
+  text-align: center;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.col-sm-4{
+    display: flex;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu a h5 {
+    color: #0c0c0c;
+    margin-left: 30px;
+}
+.divider{
+    width: 3px;
+    height: auto;
+    background-color: #e79450;
+    margin-left: auto;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  background-color: orange; /* Màu nền đỏ khi hover */
+  color: white; /* Màu chữ trắng khi hover */
+}
+
+
+.profile a:hover h5,
+.profile.clicked a h5 {
+    color: rgb(255, 255, 255);
+}
+.privary-security a:hover h5 {
+    color: rgb(255, 255, 255);
+}
+.help-support a:hover h5 {
+    color: rgb(255, 255, 255);
+}
+.about a:hover h5 {
+    color: rgb(255, 255, 255);
+}
+.logout a:hover h5 {
+    color: rgb(255, 255, 255);
+}
+
+.text1{
+    margin-bottom: 35px;
+}
+h3{
+    color: #f98328;
+    text-align: center;
+}
+
+
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column span {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-column span:hover {
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  margin-top: 20px;
+}
+
+.logo-container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+  transform: scale(1.2);
+}
